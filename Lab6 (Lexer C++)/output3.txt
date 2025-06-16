@@ -1,0 +1,7 @@
+[7:1] "123" <- STRING
+[7:7] + <- MATH_OPERATION
+[7:9] "123" <- STRING
+[7:15] = <- MATH_OPERATION
+[7:17] "123123" <- STRING
+[11:1] '' <- ERROR
+[11:4]  <- END_OF_FILE

@@ -1,0 +1,8 @@
+[1:8] "abcdef" <- STRING
+[3:2] "" <- STRING
+[5:1] "
+The Zen of Zen is Zelda
+" <- STRING
+[5:3] "" <- STRING
+[9:0] "123
+ <- ERROR

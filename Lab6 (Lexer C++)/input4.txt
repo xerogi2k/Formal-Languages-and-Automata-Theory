@@ -1,0 +1,7 @@
+"abcdef"
+
+"""
+The Zen of Zen is Zelda
+"""
+
+"123

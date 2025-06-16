@@ -1,0 +1,65 @@
+[2:1] ( <- BRACKETS
+[2:2] string <- KEYWORD
+[2:8] ) <- BRACKETS
+[3:1] { <- BRACKETS
+[4:1] asd <- IDENTIFIER
+[5:1] abc <- IDENTIFIER
+[6:1] 123 <- FLOAT
+[7:1] } <- BRACKETS
+[8:1] if1 <- IDENTIFIER
+[8:5] char <- IDENTIFIER
+[8:10] int <- KEYWORD
+[8:14] str <- IDENTIFIER
+[9:1] 123 <- FLOAT
+[9:5] 12.134 <- DOUBLE
+[9:12] 0b101001 <- BINARY
+[9:21] 0b88 <- ERROR
+[9:26] .123 <- DOUBLE
+[9:32] 0123 <- OCTAL
+[9:37] 0b222 <- ERROR
+[9:43] 123.123e+23 <- FLOAT
+[9:55] 123.123.123 <- ERROR
+[10:1] 12e2 <- FLOAT
+[10:6] 15.32e-24 <- FLOAT
+[10:16] 12e12.4 <- ERROR
+[11:1] abc <- IDENTIFIER
+[11:5] 1a <- ERROR
+[11:8] a1 <- IDENTIFIER
+[11:11] , <- SEPARATOR
+[11:13] f <- IDENTIFIER
+[11:15] f <- IDENTIFIER
+[11:17] _abc <- IDENTIFIER
+[11:22] _ <- IDENTIFIER
+[11:24] _a_b <- IDENTIFIER
+[12:1] true <- BOOLEAN
+[12:6] .false <- ERROR
+[12:13] [ <- BRACKETS
+[12:14] a <- IDENTIFIER
+[12:16] c <- IDENTIFIER
+[12:18] k <- IDENTIFIER
+[12:19] ] <- BRACKETS
+[12:20] = <- MATH_OPERATION
+[12:22] * <- MATH_OPERATION
+[13:1] ing <- IDENTIFIER
+[13:6] bool <- KEYWORD
+[13:11] + <- MATH_OPERATION
+[13:13] d <- IDENTIFIER
+[13:14] - <- MATH_OPERATION
+[14:1] ssssssssssssssssssssssssssssssssssssssssssssssssss <- IDENTIFIER
+[15:1] = <- MATH_OPERATION
+[15:3] ; <- SEPARATOR
+[15:5] == <- LOGICAL_OPERATOR
+[15:7] = <- MATH_OPERATION
+[15:9] != <- LOGICAL_OPERATOR
+[20:1] 2147483647 <- FLOAT
+[21:1] 2147483646 <- FLOAT
+[22:1] 2147483649 <- FLOAT
+[23:1] "asd asd
+/*
+dd
+/*
+a
+
+/* */
+/* <- ERROR
+[30:3]  <- END_OF_FILE
